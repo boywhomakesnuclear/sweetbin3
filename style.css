@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+}
+
+.class{
+  color: rgb(243, 93, 208);
+  position:absolute;
+  left:15%;
+  top:10%
+}
+.pizzabean{
+    color:rgb(237, 47, 193);
+    width: 22ch;
+    animation: typing 2s steps(22), 
+    blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    position:absolute;
+    left: 10%;
+    top:5%;
+    
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+  .box{
+    position:absolute;
+    top: 15%;
+    left: 30%;
+    color:aliceblue; 
+  }
+
+  .box2{
+    position:absolute;
+    top: 55%;
+    left: 30%;
+    color:aliceblue; 
+  }
+  .box3{
+    position:absolute;
+    top: 95%;
+    left: 30%;
+    color:aliceblue; 
+  }
+  .box4{
+    position:absolute;
+    top: 135%;
+    left: 30%;
+    color:aliceblue;  
+  }
+  .box5{
+    position:absolute;
+    top: 175%;
+    left: 30%;
+    color:aliceblue;  
+  }
+  .admin{
+    position: absolute;
+    left: 30%;
+    top: 215%;
+    color:rgb(246, 27, 210);
+   font-size: small;
+  }
+  .mail{
+    position: absolute;
+    left: 30%;
+    top: 220%;
+    color:rgb(246, 27, 210);
+   font-size: small;
+  }
+
+  
